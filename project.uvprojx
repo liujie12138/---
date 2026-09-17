@@ -191,7 +191,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -539,6 +539,88 @@
         </Group>
         <Group>
           <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>key_NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\key_NVIC.c</FilePath>
+            </File>
+            <File>
+              <FileName>key_NVIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\key_NVIC.h</FilePath>
+            </File>
+            <File>
+              <FileName>tim_NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\tim_NVIC.c</FilePath>
+            </File>
+            <File>
+              <FileName>tim_nvic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\tim_nvic.h</FilePath>
+            </File>
+            <File>
+              <FileName>font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\font.h</FilePath>
+            </File>
+            <File>
+              <FileName>font_cn.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\font_cn.h</FilePath>
+            </File>
+            <File>
+              <FileName>I2C.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\I2C.c</FilePath>
+            </File>
+            <File>
+              <FileName>I2C.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\I2C.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\oled.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\key_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>key_led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\key_led.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\key_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>key_usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\key_usart.h</FilePath>
+            </File>
+            <File>
+              <FileName>iwdog.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\iwdog.c</FilePath>
+            </File>
+            <File>
+              <FileName>iwdog.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\hardware\iwdog.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>system</GroupName>
